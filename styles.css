@@ -1,10 +1,10 @@
 html {
-    background-color: #240046;
+    background-color: #0B0F19;
 }
 
 h1 {
     text-align: center;
-    color: #7b2cbf;
+    color: #4F7CFF;
     font-family: "Quantico", sans-serif;
     font-size: 4em;
 }
@@ -12,5 +12,13 @@ h1 {
 p {
     font-family: "Lexend", sans-serif;
     text-align: center;
-    color: #e0aaff;
+    color: #C9D1D9;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-bottom: 5vh;
+}
+
+.grid {
+    display: grid;
+    border: 2px solid #4F7CFF;
 }
