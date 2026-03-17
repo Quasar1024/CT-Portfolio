@@ -1,15 +1,16 @@
 html {
-    background-color: #222831;
+    background-color: #240046;
 }
 
 h1 {
     text-align: center;
-    color: #00ADB5;
-    font-family: constantia, sans-serif;
+    color: #7b2cbf;
+    font-family: "Quantico", sans-serif;
     font-size: 4em;
 }
 
 p {
+    font-family: "Lexend", sans-serif;
     text-align: center;
-    color: #EEEEEE;
+    color: #e0aaff;
 }
