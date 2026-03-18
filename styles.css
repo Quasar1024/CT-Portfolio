@@ -20,5 +20,38 @@ p {
 
 .grid {
     display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     border: 2px solid #4F7CFF;
+    border-radius: 25px;
+}
+
+img.star {
+    width: 25%;
+    height: auto;
+}
+
+.starholder {
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #9bb0ff;
+    border-radius: 25px;
+
+}
+
+.blank {
+    border: 2px solid #9bb0ff;
+    width: 250pxpx;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.projectholder {
+    border: 2px solid #9bb0ff;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
 }
