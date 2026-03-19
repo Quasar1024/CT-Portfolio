@@ -15,12 +15,22 @@ header {
     flex-direction: row;
     align-items: left;
     justify-content: left;
-    margin-top: 5vh;
+    margin-top: 10px;
     gap: 5px;
     font-family: "Quantico", sans-serif;
+    border-color: 2px solid #4F7CFF;
 }
 
-
+.headernav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    color: #ffbb00;
+    gap: 20px;
+    font-family: "Quantico", sans-serif;
+    text-decoration: none;
+}
 
 h1 {
     text-align: center;
