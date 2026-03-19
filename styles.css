@@ -2,6 +2,26 @@ html {
     background-color: #0B0F19;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffbb00;
+}
+
+.branding {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    margin-top: 5vh;
+    gap: 5px;
+    font-family: "Quantico", sans-serif;
+}
+
+
+
 h1 {
     text-align: center;
     color: #4F7CFF;
