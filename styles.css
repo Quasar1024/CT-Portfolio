@@ -1,5 +1,7 @@
 html {
     background-color: #0B0F19;
+    background-image: url("./background-image.avif");
+    background-size: cover;
 }
 
 header {
@@ -8,6 +10,7 @@ header {
     align-items: center;
     justify-content: space-between;
     color: #ffbb00;
+    font-size: 1.4em;
 }
 
 .branding {
@@ -29,8 +32,20 @@ header {
     color: #ffbb00;
     gap: 20px;
     font-family: "Quantico", sans-serif;
-    text-decoration: none;
 }
+
+.headernav a {
+    color: #ffbb00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.headernav a:hover {
+    color: #ffe08a;
+    text-shadow: 0 0 8px #ffbb00, 0 0 15px #ffbb00;
+    transition: 0.2s ease-in-out;
+}
+
 
 h1 {
     text-align: center;
@@ -49,7 +64,7 @@ p {
 }
 
 .grid {
-    display: grid;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -74,7 +89,7 @@ img.star {
 
 .blank {
     border: 2px solid #9bb0ff;
-    width: 250pxpx;
+    width: 250px;
     height: 250px;
     border-radius: 25px;
 }
