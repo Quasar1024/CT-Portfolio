@@ -1,6 +1,7 @@
 html {
     background-image: url("./background-image.avif");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -51,13 +52,13 @@ h1 {
     color: #c9d1d9;
     font-family: "Quantico", sans-serif;
     font-size: 4em;
-    text-shadow: 0 0 6px #C9D1D9, 0 0 24px #4F7CFF, 0 0 36px #4F7CFF, 0 0 48px #4F7CFF, 0 0 60px #4F7CFF;
+    text-shadow: 0 0 6px #ffffff, 0 0 24px #4F7CFF, 0 0 36px #4F7CFF, 0 0 48px #4F7CFF, 0 0 60px #4F7CFF;
 }
 
 p {
     font-family: "Lexend", sans-serif;
     text-align: center;
-    color: #C9D1D9;
+    color: #c9d1d9;
     font-size: 1.14em;
     margin-left: 25vw;
     margin-right: 25vw;
@@ -72,7 +73,7 @@ p {
 }
 
 img.star {
-    width: 25%;
+    width: 100%;
     height: auto;
 }
 
@@ -81,18 +82,17 @@ img.star {
     align-items: center;
     width: 350px;
     height: 350px;
-    border: 3px solid #ffbb00;
-
 }
 
 .blank {
-    border: 3px solid #C9D1D9;
     width: 350px;
     height: 350px;
 }
 
 .projectholder {
-    border: 3px solid #4f7cff;
+    border-radius: 50px;
     width: 350px;
     height: 350px;
+    opacity: 50%;
+    background-color: #c9d1d9;
 }
