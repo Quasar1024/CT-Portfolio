@@ -95,4 +95,17 @@ img.star {
     height: 350px;
     opacity: 50%;
     background-color: #c9d1d9;
+    transition: 0.1s ease-in-out;
+}
+
+.projectholder:hover {
+    opacity: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.projectholder a {
+    text-decoration: none;
+    color: #4F7CFF;
+    font-family: "Quantico", sans-serif;
+    font-size: 1.5em;
 }
