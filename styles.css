@@ -109,3 +109,9 @@ img.star {
     font-family: "Quantico", sans-serif;
     font-size: 1.5em;
 }
+
+img.cho {
+    width: auto;
+    height: 350px;
+    justify-content: center;
+}
