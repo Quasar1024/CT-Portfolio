@@ -129,18 +129,28 @@ img.starsz2:hover {
     opacity: 50%;
     background-color: #c9d1d9;
     font-family: "Quantico", sans-serif;
-    transition: transform 0.2s ease-in-out, border-radius 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    transition: transform 0.3s ease-in-out, border-radius 0.3s ease-in-out, opacity 0.3s ease-in-out;
     transform: scale(1);
     box-sizing: border-box;
     text-decoration: none;
     font-size: 2em;
+    box-shadow: #c9d1d9 0 0 10px, #c9d1d9 0 0 20px;
 }
 
 .projectholder:hover {
-    transform: scale(1.07);
+    transform: scale(1.15);
     border-radius: 50px;
     opacity: 100%;
+    color: #ffbb00;
     box-shadow: 0 0 10px #4F7CFF, 0 0 20px #4F7CFF, 0 0 30px #4F7CFF, 0 0 40px #4F7CFF;
     text-decoration: none;
-    background-image: ;
+    border: 6px solid #c9d1d9;
+    background-color: transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.project1:hover {
+    background-image: url("./Proj1background.png");
 }
