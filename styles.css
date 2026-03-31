@@ -55,13 +55,33 @@ h1 {
     text-shadow: 0 0 6px #ffffff, 0 0 24px #4F7CFF, 0 0 36px #4F7CFF, 0 0 48px #4F7CFF, 0 0 60px #4F7CFF;
 }
 
-p {
+p.pnarrow {
     font-family: "Lexend", sans-serif;
     text-align: center;
     color: #c9d1d9;
     font-size: 1.14em;
     margin-left: 25vw;
     margin-right: 25vw;
+    margin-bottom: 5vh;
+}
+
+p.pwide {
+    font-family: "Lexend", sans-serif;
+    text-align: center;
+    color: #c9d1d9;
+    font-size: 1.14em;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vh;
+}
+
+p.pbox {
+    font-family: "Lexend", sans-serif;
+    text-align: center;
+    color: #c9d1d9;
+    font-size: 1.14em;
+    margin-left: 10vw;
+    margin-right: 10vw;
     margin-bottom: 5vh;
 }
 
@@ -156,12 +176,33 @@ img.starsz2:hover {
 }
 
 .reflectionholder {
+    display: flex;
+    flex-direction: row;
     width: 85vw;
     height: 50vh;
     margin-left: 7.5vw;
     border: 1px solid #c9d1d9;
 }
 
-.reflectiontext {}
+.reflectiontext {
+    width: 42.5vw;
+    height: 50vh;
+    border: 1px solid #c9d1d9;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
-.reflectionimage {}
+.reflectionimage {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 42.5vw;
+    height: 50vh;
+    border: 1px solid #c9d1d9;
+}
+
+img.screenshot {
+    width: 42.5vw;
+    height: auto;
+}
