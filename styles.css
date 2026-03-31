@@ -25,6 +25,12 @@ header {
     border-color: 2px solid #4F7CFF;
 }
 
+img.brandlogo {
+    border-radius: 50%;
+    height: 1.4em;
+    width: auto;
+}
+
 .headernav {
     display: flex;
     flex-direction: row;
