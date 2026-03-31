@@ -2,6 +2,8 @@ html {
     background-image: url("./background-image.avif");
     background-size: cover;
     background-attachment: fixed;
+    font-family: "Quantico", sans-serif;
+    font-display: swap;
 }
 
 header {
@@ -20,7 +22,6 @@ header {
     justify-content: left;
     margin-top: 10px;
     gap: 5px;
-    font-family: "Quantico", sans-serif;
     border-color: 2px solid #4F7CFF;
 }
 
@@ -31,7 +32,6 @@ header {
     justify-content: right;
     color: #ffbb00;
     gap: 20px;
-    font-family: "Quantico", sans-serif;
 }
 
 .headernav a {
@@ -50,13 +50,13 @@ header {
 h1 {
     text-align: center;
     color: #c9d1d9;
-    font-family: "Quantico", sans-serif;
     font-size: 4em;
     text-shadow: 0 0 6px #ffffff, 0 0 24px #4F7CFF, 0 0 36px #4F7CFF, 0 0 48px #4F7CFF, 0 0 60px #4F7CFF;
 }
 
 p.pnarrow {
     font-family: "Lexend", sans-serif;
+    font-display: swap;
     text-align: center;
     color: #c9d1d9;
     font-size: 1.14em;
@@ -67,6 +67,7 @@ p.pnarrow {
 
 p.pwide {
     font-family: "Lexend", sans-serif;
+    font-display: swap;
     text-align: center;
     color: #c9d1d9;
     font-size: 1.14em;
@@ -77,6 +78,7 @@ p.pwide {
 
 p.pbox {
     font-family: "Lexend", sans-serif;
+    font-display: swap;
     text-align: center;
     color: #c9d1d9;
     font-size: 1.14em;
