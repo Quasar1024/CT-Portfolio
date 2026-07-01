@@ -219,3 +219,8 @@ img.screenshot {
     width: 45vw;
     height: auto;
 }
+
+.dashboard-iframe {
+width: 100%;
+
+}
