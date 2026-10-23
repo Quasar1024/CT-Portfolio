@@ -188,6 +188,10 @@ img.starsz2:hover {
     color: #0b1941;
 }
 
+.project3:hover {
+    background-image: url("./Arduino_result.jpg")
+}
+
 .reflectionholder {
     display: flex;
     flex-direction: row;
