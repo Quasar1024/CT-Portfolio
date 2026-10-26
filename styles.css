@@ -224,6 +224,14 @@ img.starsz2:hover {
     height: 50vh;
 }
 
+.reflectionimage img.arduino-result {
+    max-width: 100%;
+    max-height: 45vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
 img.screenshot {
     width: 45vw;
     height: auto;
